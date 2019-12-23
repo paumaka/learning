@@ -1,0 +1,68 @@
+.container-with-border {
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 2px;
+  border-style: solid;
+}
+
+.task-form {
+    height: 40%;
+}
+
+.task-list {
+   height: 100%;
+}
+
+.task-entry {
+   height: 10px;
+   border-radius: 10px;
+   margin: 2px;
+   border-style: : solid;
+}
+
+
+.cell-hit {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cell-covered {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cell-miss {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
